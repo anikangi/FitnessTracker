@@ -38,6 +38,7 @@ const HorizontalScrollbar = ( {data, bodyPart, setBodyPart, isBodyPart}) => {
             itemId={item.id || item}
             title={item.id || item}
             margin='0 40px'
+            
             >
               {isBodyPart 
                 ?

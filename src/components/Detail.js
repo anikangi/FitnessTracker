@@ -25,13 +25,13 @@ const Detail = ( { exerciseDetail } ) => {
   
   return (
     <Stack gap='60px' sx={{flexDirection: { lg: 'row'}, p:'20px', 
-    alignItems:'center'}}>
-      <img src={gifUrl} alt={name} loading='lazy' className='detail-image'/>
+    alignItems:'center'}} style={{margin:'4em'}}>
+      <img src={gifUrl} alt={name} loading='lazy' className='detail-image' />
       <Stack sx={{ gap: { lg: '35px', xs: '20px'}}}>
-        <Typography variant='h3'>
+        <Typography variant='h3' fontWeight='bold'>
           {name}
         </Typography>
-        <Typography variant='h6'>
+        <Typography variant='h6' >
           Exercises keep you strong. {` `}
           {name} {` `} 
           is one of the best exercises to target your{` `}

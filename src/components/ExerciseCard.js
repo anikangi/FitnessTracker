@@ -5,7 +5,7 @@ import { exerciseOptions } from '../utils/fetchData'
 
 const ExerciseCard = ({exercise}) => {
   return (
-    <Link class='exercise-card' to={`/exercise/${exercise.id}`}>
+    <Link class='exercise-card' to={`/exercise/${exercise.id}`} style={{ height:'90%'}}>
         <img src={exercise.gifUrl} alt={exercise.name} loading='lazy'/>
         <Stack direction='row'>
             <Button sx={{ ml: '21px', color:'#fff', background:'#ffA9A9',
